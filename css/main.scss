@@ -1,0 +1,92 @@
+/*Specification*/
+
+body{
+  font-family: 'PT sans', sans-serif;
+}
+
+ul, li{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h4, h5{
+  font-weight: 700;
+  color: #000;
+}
+
+h3{
+  font-weight: 400;
+  color: #000;
+}
+
+h2{
+  text-align: center;
+}
+
+p, div, a, span{
+  line-height: 1.3em;
+}
+
+/*First screen*/
+
+.header{
+  padding-top: 58px;
+  background: #fcdb00;
+  padding-bottom: 105px;
+
+  .menu{
+    margin-top: 10px;
+
+    .menu__item{
+      margin: 0px 57px;
+
+        a {
+          font-size: 22px;
+          color: #000;
+          font-weight: 700;
+        }
+    }
+  }
+}
+
+.offer{
+  margin-top: 117px;
+
+  .offer__title{
+    font-size: 32px;
+    margin-bottom: 15px;
+
+  }
+
+  .offer__intro{
+    font-size: 20px;
+    line-height: 1.3em;
+  }
+
+  .offer__text{
+    font-size: 16px;
+    margin-top: 20px;
+    width: 400px;
+  }
+
+  .icons__item a{
+    color: #000;
+    font-size: 42px;
+    margin-right: 30px;
+      &:hover{
+          color:#ff4800 ;
+      }
+    transition: all 0.3s ease;
+  }
+}
+
+.ipad{
+  display: block;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+
+
+
