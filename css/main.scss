@@ -28,6 +28,24 @@ p, div, a, span{
   line-height: 1.3em;
 }
 
+.title{
+  padding-top: 100px;
+  text-align: center;
+}
+
+.title__map{
+  font-size: 32px;
+}
+
+.title__text{
+  font-size: 20px;
+  width: 700px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+
+
 /*First screen*/
 
 .header{
@@ -87,6 +105,26 @@ p, div, a, span{
   padding: 60px 0;
 }
 
+/*Second screen*/
+.feature{
+  margin-bottom: 65px;
+    .feature__icon{
+      font-size: 50px;
+      color: #000;
+      margin-right: 37px;
+    }
+    .feature__block{
+     
+      .feature__title{
 
+      }
+      .feature__text{
+        color: #898989; 
+
+      }
+
+    }
+
+}
 
 
