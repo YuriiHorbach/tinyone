@@ -168,5 +168,20 @@ p, div, a, span{
     outline: none;
   }
 }
+
+/*Footer*/
+
+.footer{
+  background: #000;
+  color: #fff;
+
+    .credits{
+      font-size: 16px;
+      text-align: center;
+      padding: 50px 0 94px;
+      width: 184px;
+      margin: 0 auto;
+    }
+}
  
 
