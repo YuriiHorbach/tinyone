@@ -33,7 +33,7 @@ p, div, a, span{
   text-align: center;
 }
 
-.title__map{
+.title__main{
   font-size: 32px;
 }
 
@@ -42,6 +42,10 @@ p, div, a, span{
   width: 700px;
   margin: 0 auto;
   padding-bottom: 70px;
+}
+
+.yellow{
+  color: #fcdb00;
 }
 
 
@@ -127,4 +131,42 @@ p, div, a, span{
 
 }
 
+/*Second screen*/
+
+.touch{
+  background: #010101;
+  color: #fff;
+}
+
+/*Third screen*/
+
+.form{
+  text-align: center;
+  
+  .form__input{
+    background: #fff;
+    font-size: 16px;
+    font-family: 'PT sans', sans-serif;
+    width: 580px;
+    border-radius: 5px;
+    padding: 15px 0;
+    margin-right: 21px;
+    border: 0;
+    padding-left: 23px;
+    outline: none;
+
+  }
+  .form__btn{
+    font-family: 'PT sans', sans-serif;
+    border-radius: 5px;
+    color: #000;
+    background: #fcdb00;
+    width: 126px;
+    border: 0;
+    padding: 15px 0;
+    cursor: pointer;
+    outline: none;
+  }
+}
+ 
 
