@@ -184,4 +184,38 @@ p, div, a, span{
     }
 }
  
+/*Mediaqueries*/
 
+@media screen and (max-width: 992px) {
+  .logo{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .offer{
+    text-align: center;
+    .offer__text{
+      margin: 20px auto;
+      
+    }
+    .icons{
+      justify-content: center;
+    }
+  }
+
+}
+
+.form{
+  .form__input{
+    margin-right: 0;
+    width: 100%;
+  }
+  .form__btn{
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+.title__text{
+  width: auto;
+}
