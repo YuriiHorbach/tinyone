@@ -196,10 +196,16 @@ p, div, a, span{
     text-align: center;
     .offer__text{
       margin: 20px auto;
+      width: auto;
       
     }
     .icons{
       justify-content: center;
+
+      .icons__item:nth-child(3){
+        margin-right: 0;
+      }
+
     }
   }
 
@@ -211,11 +217,26 @@ p, div, a, span{
     width: 100%;
   }
   .form__btn{
-    margin-top: 15px;
+    margin-top: 20px;
     width: 100%;
   }
 }
 
 .title__text{
   width: auto;
+}
+
+@media screen and (max-width: 576px) {
+
+  .ipad{
+    width: 100%;
+  }
+
+  .menu{
+    flex-direction: column;
+    .menu__item{
+      text-align: center;
+      padding-bottom: 10px;
+    }
+  }
 }
